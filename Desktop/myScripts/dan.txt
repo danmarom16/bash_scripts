@@ -1,0 +1,4 @@
+
+for f in $(find /tmp -name '*.pdf' -or -name '*.doc');
+ do rm $f;
+  done
